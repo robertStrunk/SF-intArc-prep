@@ -88,3 +88,9 @@
 - Given a use case, identify reporting needs for integration monitoring.
 
 ---
+
+## 📚 Resources
+
+- [Integration Patterns and Practices](files/integration_patterns_and_practices.pdf) - Comprehensive guide to Salesforce integration patterns
+
+---
