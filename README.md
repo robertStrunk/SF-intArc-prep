@@ -93,4 +93,8 @@
 
 - [Integration Patterns and Practices](files/integration_patterns_and_practices.pdf) - Comprehensive guide to Salesforce integration patterns
 
+- [Salesforce OAuth Flows](https://help.salesforce.com/s/articleView?id=xcloud.remoteaccess_oauth_flows_ca.htm&type=5) - Official documentation for Salesforce OAuth flows. 
+
+- [OAuth Cheat Sheet](https://github.com/robertStrunk/SF-oAuth-cheatsheet) - My OAuth Cheatsheet for all SF OAuth flows.
+
 ---
