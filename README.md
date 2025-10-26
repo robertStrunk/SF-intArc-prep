@@ -1,4 +1,4 @@
-# Salesforce Certified Integration Architect Study Plan (v1.1)
+# Salesforce Certified Integration Architect Study Plan
 ## Complete Guide for 2025 Exam Alignment
 
 ---
