@@ -23,18 +23,18 @@
 
 | **Domain** | **Weight** | **Study Time** |
 |-------------|-------------|----------------|
-| 1. Evaluate Current System Landscape | 8% | 1 week |
-| 2. Evaluate Business Needs | 11% | 1–2 weeks |
-| 3. Translate Needs to Integration Requirements | 22% | 2–3 weeks |
-| 4. Design Integration Solutions | 28% | 3–4 weeks |
-| 5. Build Solution | 23% | 2–3 weeks |
-| 6. Maintain Integration | 8% | 1 week |
+| [1. Evaluate Current System Landscape](#-domain-1-evaluate-the-current-system-landscape-8) | 8% | 1 week |
+| [2. Evaluate Business Needs](#-domain-2-evaluate-business-needs-11) | 11% | 1–2 weeks |
+| [3. Translate Needs to Integration Requirements](#-domain-3-translate-needs-to-integration-requirements-22) | 22% | 2–3 weeks |
+| [4. Design Integration Solutions](#-domain-4-design-integration-solutions-28) | 28% | 3–4 weeks |
+| [5. Build Solution](#-domain-5-build-solution-23) | 23% | 2–3 weeks |
+| [6. Maintain Integration](#-domain-6-maintain-integration-8) | 8% | 1 week |
 
 **Total Study Duration: 10–14 weeks (recommended)**
 
 ---
 
-## 🔍 Domain 1: Evaluate the Current System Landscape (8%)
+## 🔍 [Domain 1: Evaluate the Current System Landscape (8%)](section_notes/1%20-%20Evaluate%20the%20Current%20System%20Landscape.md)
 
 - Given a set of business requirements, identify the current system landscape and determine what standards, limitations, boundaries, and protocols exist.
 - Given an existing system landscape, analyze for constraints and/or pain-points to satisfy a business requirement(s).
@@ -42,7 +42,7 @@
 
 ---
 
-## 💡 Domain 2: Evaluate Business Needs (11%)
+## 💡 [Domain 2: Evaluate Business Needs (11%)](section_notes/2%20-%20Evaluate%20Business%20Needs.md)
 
 - Given a use case, identify functional and non-functional requirements needed for integration.
 - Based on a given integration requirement, identify and classify data into Confidential/Secure/Public.
@@ -51,7 +51,7 @@
 
 ---
 
-## ⚙️ Domain 3: Translate Needs to Integration Requirements (22%)
+## ⚙️ [Domain 3: Translate Needs to Integration Requirements (22%)](section_notes/3%20-%20Translate%20Needs%20to%20Integration%20Requirements.md)
 
 - Given an existing system landscape diagram, create an inventory of the systems and integration patterns.
 - Given a use case and business process, evaluate system and process constraints.
@@ -60,7 +60,7 @@
 
 ---
 
-## 🧩 Domain 4: Design Integration Solutions (28%)
+## 🧩 [Domain 4: Design Integration Solutions (28%)](section_notes/4%20-%20Design%20Integration%20Solutions.md)
 
 - Given a use case, identify the integration pattern that meets business requirements.
 - Given a use case, define the components which create a solution that meets business requirements. 
@@ -70,7 +70,7 @@
 
 ---
 
-## 🧠 Domain 5: Build Solution (23%)
+## 🧠 [Domain 5: Build Solution (23%)](section_notes/5%20-%20Build%20Solution.md)
 
 - Given a use case that includes technical requirements, constraints, or drivers, identify the considerations when designing and implementing an API(s), both Salesforce as an API provider and Salesforce as an API consumer.
 - Given a use case, identify the considerations when choosing the right option in making an outbound call to an external system.
@@ -81,7 +81,7 @@
 
 ---
 
-## 🧭 Domain 6: Maintain Integration (8%)
+## 🧭 [Domain 6: Maintain Integration (8%)](section_notes/6%20-%20Maintain%20Integration.md)
 
 - Given an integration maintenance use case, identify performance monitoring needs for integration requirements.
 - Given a use case, identify the appropriate error handling, escalation, and recovery procedures for a failed integration.
