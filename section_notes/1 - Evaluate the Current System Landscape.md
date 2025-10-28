@@ -50,21 +50,21 @@
             <td>Apex SOAP</td>
             <td>WSDL 1.1<br> SOAP 1.1<br> WSI-Basic Profile 1.1<br> HTTP</td>
             <td>(stateless) Confined to a single transaction<br> accessible from internet</td>
-            <td>[Callout Limits and Limitations](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_callouts_timeouts.htm)</td>
+            <td><a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_callouts_timeouts.htm">Callout Limits and Limitations</a></td>
         </tr>
         <tr>
             <td>Synchronous</td>
             <td>Apex HTTP (REST)</td>
             <td>HTTP</td>
             <td>(stateless) Confined to a single transaction<br> accessible from internet</td>
-            <td>[Callout Limits and Limitations](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_callouts_timeouts.htm)</td>
+            <td><a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_callouts_timeouts.htm">Callout Limits and Limitations</a></td>
         </tr>
         <tr>
             <td>Synchronous</td>
             <td>External Services (Flow)</td>
             <td>HTTP<br> OpenAPI 2.0</td>
             <td>(stateless) Confined to a single transaction<br> accessible from internet</td>
-            <td>[Callout Limits and Limitations](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_callouts_timeouts.htm)</td>
+            <td><a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_callouts_timeouts.htm">Callout Limits and Limitations</a></td>
         </tr>
         <tr>
             <td rowspan="3">REMOTE PROCESS INVOCATION - FIRE & FORGET</td>
@@ -72,21 +72,21 @@
             <td>Apex SOAP</td>
             <td>WSDL 1.1<br> SOAP 1.1<br> WSI-Basic Profile 1.1<br> HTTP</td>
             <td>(stateless) Confined to a single transaction<br> accessible from internet</td>
-            <td>[Callout Limits and Limitations](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_callouts_timeouts.htm)</td>
+            <td><a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_callouts_timeouts.htm">Callout Limits and Limitations</a></td>
         </tr>
         <tr>
             <td>Asynchronous</td>
             <td>Outbound Message</td>
             <td>WSDL 1.1<br> SOAP 1.1<br> WSI-Basic Profile 1.1<br> HTTP</td>
             <td>(stateless) Confined to a single transaction<br> accessible from internet</td>
-            <td>[Callout Limits and Limitations](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_callouts_timeouts.htm)</td>
+            <td><a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_callouts_timeouts.htm">Callout Limits and Limitations</a></td>
         </tr>
         <tr>
             <td>Asynchronous</td>
             <td>Apex HTTP (REST)</td>
             <td>HTTP</td>
             <td>(stateless) Confined to a single transaction<br> accessible from internet</td>
-            <td>[Callout Limits and Limitations](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_callouts_timeouts.htm)</td>
+            <td><a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_callouts_timeouts.htm">Callout Limits and Limitations</a></td>
         </tr>
         <tr>
             <td>BATCH DATA SYNCHRONIZATION</td>
@@ -94,7 +94,7 @@
             <td></td>
             <td></td>
             <td></td>
-            <td>[Callout Limits and Limitations](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_callouts_timeouts.htm)</td>
+            <td><a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_callouts_timeouts.htm">Callout Limits and Limitations</a></td>
         </tr>
         <tr>
             <td>REMOTE CALL-IN</td>
@@ -102,7 +102,7 @@
             <td></td>
             <td></td>
             <td></td>
-            <td>[Callout Limits and Limitations](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_callouts_timeouts.htm)</td>
+            <td><a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_callouts_timeouts.htm">Callout Limits and Limitations</a></td>
         </tr>
         <tr>
             <td>UI UPDATE BASED ON DATA CHANGES</td>
@@ -110,7 +110,7 @@
             <td></td>
             <td></td>
             <td></td>
-            <td>[Callout Limits and Limitations](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_callouts_timeouts.htm)</td>
+            <td><a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_callouts_timeouts.htm">Callout Limits and Limitations</a></td>
         </tr>
         <tr>
             <td>DATA VIRTUALIZATION</td>
@@ -118,7 +118,7 @@
             <td></td>
             <td></td>
             <td></td>
-            <td>[Callout Limits and Limitations](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_callouts_timeouts.htm)</td>
+            <td><a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_callouts_timeouts.htm">Callout Limits and Limitations</a></td>
         </tr>
     </tbody>
 </table>
