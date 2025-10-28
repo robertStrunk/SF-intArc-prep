@@ -29,31 +29,99 @@
 
     Below is a table that shows the standards, protocols, boundaries, and imitations that are common for each integration pattern
 
+
+
+
 <table>
-  <tr>
-    <td rowspan="2">Row span</td>
-    <td>Row 1, Col 2</td>
-  </tr>
-  <tr>
-    <td>Row 2, Col 2</td>
-  </tr>
+    <thead>
+        <tr>
+            <th>Pattern</th>
+            <th>Timing</th>
+            <th>Method</th>
+            <th>Protocol</th>
+            <th>Boundary</th>
+            <th>Limitation</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="3">REMOTE PROCESS INVOCATION - REQUEST & REPLY</td>
+            <td>Synchronous</td>
+            <td>Apex SOAP</td>
+            <td>WSDL 1.1<br> SOAP 1.1<br> WSI-Basic Profile 1.1<br> HTTP</td>
+            <td>(stateless) Confined to a single transaction<br> accessible from internet</td>
+            <td>[Callout Limits and Limitations](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_callouts_timeouts.htm)</td>
+        </tr>
+        <tr>
+            <td>Synchronous</td>
+            <td>Apex HTTP (REST)</td>
+            <td>HTTP</td>
+            <td>(stateless) Confined to a single transaction<br> accessible from internet</td>
+            <td>[Callout Limits and Limitations](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_callouts_timeouts.htm)</td>
+        </tr>
+        <tr>
+            <td>Synchronous</td>
+            <td>External Services (Flow)</td>
+            <td>HTTP<br> OpenAPI 2.0</td>
+            <td>(stateless) Confined to a single transaction<br> accessible from internet</td>
+            <td>[Callout Limits and Limitations](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_callouts_timeouts.htm)</td>
+        </tr>
+        <tr>
+            <td rowspan="3">REMOTE PROCESS INVOCATION - FIRE & FORGET</td>
+            <td>Asynchronous</td>
+            <td>Apex SOAP</td>
+            <td>WSDL 1.1<br> SOAP 1.1<br> WSI-Basic Profile 1.1<br> HTTP</td>
+            <td>(stateless) Confined to a single transaction<br> accessible from internet</td>
+            <td>[Callout Limits and Limitations](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_callouts_timeouts.htm)</td>
+        </tr>
+        <tr>
+            <td>Asynchronous</td>
+            <td>Outbound Message</td>
+            <td>WSDL 1.1<br> SOAP 1.1<br> WSI-Basic Profile 1.1<br> HTTP</td>
+            <td>(stateless) Confined to a single transaction<br> accessible from internet</td>
+            <td>[Callout Limits and Limitations](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_callouts_timeouts.htm)</td>
+        </tr>
+        <tr>
+            <td>Asynchronous</td>
+            <td>Apex HTTP (REST)</td>
+            <td>HTTP</td>
+            <td>(stateless) Confined to a single transaction<br> accessible from internet</td>
+            <td>[Callout Limits and Limitations](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_callouts_timeouts.htm)</td>
+        </tr>
+        <tr>
+            <td>BATCH DATA SYNCHRONIZATION</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>[Callout Limits and Limitations](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_callouts_timeouts.htm)</td>
+        </tr>
+        <tr>
+            <td>REMOTE CALL-IN</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>[Callout Limits and Limitations](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_callouts_timeouts.htm)</td>
+        </tr>
+        <tr>
+            <td>UI UPDATE BASED ON DATA CHANGES</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>[Callout Limits and Limitations](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_callouts_timeouts.htm)</td>
+        </tr>
+        <tr>
+            <td>DATA VIRTUALIZATION</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>[Callout Limits and Limitations](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_callouts_timeouts.htm)</td>
+        </tr>
+    </tbody>
 </table>
-
-
-
-
-| Pattern | Timing  | Method  | Protocol | Boundary | Limitation |
-|---------|----------|----------|------------|------------|------------|
-| REMOTE PROCESS INVOCATION - REQUEST & REPLY | Synchronous | Apex SOAP | WSDL 1.1<br> SOAP 1.1<br> WSI-Basic Profile 1.1<br> HTTP | (stateless) Confined to a single transaction<br> accessible from internet | SF Governor Limits |
-|  | Synchronous | Apex REST | HTTP | (stateless) Confined to a single transaction<br> accessible from internet | SF Governor Limits |
-|  | Synchronous | External Services (Flow) | HTTP<br> OpenAPI 2.0 | (stateless) Confined to a single transaction<br> accessible from internet | SF Governor Limits |
-| REMOTE PROCESS INVOCATION - FIRE & FORGET | Asynchronous | Apex SOAP | WSDL 1.1<br> SOAP 1.1<br> WSI-Basic Profile 1.1<br> HTTP | (stateless) Confined to a single transaction<br> accessible from internet | SF Governor Limits |
-|  | Asynchronous | Outbound Message | WSDL 1.1<br> SOAP 1.1<br> WSI-Basic Profile 1.1<br> HTTP | (stateless) Confined to a single transaction<br> accessible from internet | SF Governor Limits |
-|  | Asynchronous | Apex REST | HTTP | (stateless) Confined to a single transaction<br> accessible from internet | SF Governor Limits |
-| BATCH DATA SYNCHRONIZATION |  |  |  |  | SF Governor Limits |
-| REMOTE CALL-IN |  |  |  |  | SF Governor Limits |
-| UI UPDATE BASED ON DATA CHANGES |  |  |  |  | SF Governor Limits |
-| DATA VIRTUALIZATION |  |  |  |  | SF Governor Limits |
 
     For the Salesforce side of integrations, there is a tool named "Salesforce Optimizer" that is helpful in identifying limit, high complexity, or other concerns that would be relevant to an integration. 
     
